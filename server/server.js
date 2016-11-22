@@ -20,7 +20,7 @@ app.set("views", __dirname + "/../client/views");
 app.get( "/",  (req, res) =>  {
 
   res.render("index", {
-    title : "Entry name product for search in Ebay and Amazon"
+    title : "Entry name product for search in Ebay"
 
   });
 
